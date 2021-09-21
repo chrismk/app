@@ -26,3 +26,7 @@ DB_URL=[postgresql url]
 
 Start the project
 yarn start
+
+#### Deploy on Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/botmate/app)
