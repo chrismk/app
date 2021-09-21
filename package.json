@@ -1,8 +1,17 @@
 {
-	"name": "app",
+	"name": "botmate-app",
 	"version": "1.0.0",
+	"repository": {
+		"url": "https://github.com/botmate/app"
+	},
+	"author": {
+		"name": "xencodes"
+	},
 	"main": "lib/index.js",
 	"license": "MIT",
+	"scripts": {
+		"start": "node lib/index.js"
+	},
 	"dependencies": {
 		"botmate": "^1.0.0-beta.5",
 		"dotenv": "^10.0.0"
