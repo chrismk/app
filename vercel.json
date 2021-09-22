@@ -1,0 +1,10 @@
+{
+	"versopm": 1,
+	"builds": [
+		{
+			"src": "./lib/index.js",
+			"use": "@vercel/node"
+		}
+	],
+	"routes": [{ "src": "/(.*)0", "dest": "./" }]
+}
