@@ -13,7 +13,7 @@
 		"start": "node lib/index.js"
 	},
 	"dependencies": {
-		"botmate": "latest",
+		"botmate": "*",
 		"dotenv": "^10.0.0"
 	}
 }
